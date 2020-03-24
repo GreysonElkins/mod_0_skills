@@ -1,0 +1,19 @@
+object: barstool
+
+attributes:
+
+height: 3.5
+material: ["wood", "screws"]
+wobbly: true
+legCount: 4
+empty: true
+
+methods:
+
+seatCustomer (empty: false)
+
+reupholster (material: ["wood", "screws", "vinyl"])
+
+shimmy (wobbly: false)
+
+boosterSeat (height: 4.0)
