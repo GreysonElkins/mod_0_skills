@@ -10,13 +10,15 @@ tab: 4.50
 
 Methods:
 
-placeOrder (order: ["coke", "lemonade", "water", "water", "burger", "salad", "corndog", "mac and cheese"]
+placeOrder (order: ["coke", "lemonade", "water", "water", "burger", "salad", "corndog", "mac and cheese"];
 
-needsHelp: false
+needsHelp: false;
 
-tab: 45:82
+tab: 45:82;
 )
 
-joinParty (headsAtTable: 5)
+joinParty (headsAtTable: 5;)
 
-leaveParty (headsAtTable: 4)
+leaveParty (headsAtTable: 4;)
+
+payOut (openCheck: false; tab: 0.00;)
