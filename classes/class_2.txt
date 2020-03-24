@@ -15,7 +15,7 @@ placeOrder (populates order array with food customers wish to eat, changes needH
 
 flagServer (customer waves down a server to ask for help, changes needHelp to true)
 
-payOut (customer pays check, changes open check to false)
+payOut (customer pays check, changes open check to false, tab goes to 0.00)
 
 joinParty (someone new sits with customer, increases headsAtTable)
 
