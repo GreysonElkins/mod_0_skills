@@ -1,0 +1,22 @@
+object: theSmithFamily
+
+Attributes:
+
+headsAtTable: 4
+order: ["coke", "lemonade", "water", "water"]
+needHelp: true
+openCheck: true
+tab: 4.50
+
+Methods:
+
+placeOrder (order: ["coke", "lemonade", "water", "water", "burger", "salad", "corndog", "mac and cheese"]
+
+needsHelp: false
+
+tab: 45:82
+)
+
+joinParty (headsAtTable: 5)
+
+leaveParty (headsAtTable: 4)
