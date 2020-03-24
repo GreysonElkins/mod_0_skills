@@ -1,0 +1,9 @@
+var food = "bacon";
+var is_new = true;
+var food = "green bean";
+var num1 = 42;
+var num2 = 7800;
+var num3 = num1 * num2;
+var movies = ["Donnie Darko", "Snowpeircer", "It's Such a Beautiful Day", "Troll 2"];
+movies.pop();
+console.log(movies.length);
