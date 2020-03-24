@@ -1,0 +1,22 @@
+class: Customers
+
+Attributes:
+
+headsAtTable (integer)
+order (array of strings)
+needHelp (boolean)
+openCheck (boolean)
+tab (float)
+
+Methods:
+
+
+placeOrder (populates order array with food customers wish to eat, changes needHelp to false, adds to tab)
+
+flagServer (changes needHelp to true)
+
+payOut (changes open check to false)
+
+joinParty (increases headsAtTable)
+
+leaveParty (decreases headsAtTable)
