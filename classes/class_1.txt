@@ -1,17 +1,18 @@
 class: Chair
 
 attributes:
+
 height (float)
-material (string)
+material (array of strings)
 wobbly (boolean)
-leg (integer)
+legCount (integer)
 empty (boolean)
 
 methods:
 
 seatCustomer (someone sits in the chair, changes a chairs empty value to false)
 
-reupholster (the chair is made to look new, changes the material)
+reupholster (the chair is made to look new, changes or adds to the material)
 
 shimmy (places a small peice of wood under one of the legs, changes wobbly to false)
 
