@@ -1,4 +1,4 @@
-class: Customers
+class: Customer
 
 Attributes:
 
@@ -13,10 +13,10 @@ Methods:
 
 placeOrder (populates order array with food customers wish to eat, changes needHelp to false, adds to tab)
 
-flagServer (changes needHelp to true)
+flagServer (customer waves down a server to ask for help, changes needHelp to true)
 
-payOut (changes open check to false)
+payOut (customer pays check, changes open check to false)
 
-joinParty (increases headsAtTable)
+joinParty (someone new sits with customer, increases headsAtTable)
 
-leaveParty (decreases headsAtTable)
+leaveParty (someone leaves customers table, decreases headsAtTable)
