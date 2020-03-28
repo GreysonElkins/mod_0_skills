@@ -4,9 +4,9 @@ attributes:
 
 height (float)
 material (array of strings)
-wobbly (boolean)
+isWobbly (boolean)
 legCount (integer)
-empty (boolean)
+isEmpty (boolean)
 
 methods:
 
@@ -14,6 +14,6 @@ seatCustomer (someone sits in the chair, changes a chairs empty value to false)
 
 reupholster (the chair is made to look new, changes or adds to the material)
 
-shimmy (places a small peice of wood under one of the legs, changes wobbly to false)
+shimmyLeg (places a small peice of wood under one of the legs, changes wobbly to false)
 
-boosterSeat (adds a boosterSeat to the chair, increasing its height)
+addBoosterSeat (adds a boosterSeat to the chair, increasing its height)

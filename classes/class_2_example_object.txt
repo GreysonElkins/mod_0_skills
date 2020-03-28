@@ -4,8 +4,8 @@ Attributes:
 
 headsAtTable: 4
 order: ["coke", "lemonade", "water", "water"]
-needHelp: true
-openCheck: true
+doesNeedHelp: true
+isCheckOpen: true
 tab: 4.50
 
 Methods:

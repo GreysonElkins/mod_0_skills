@@ -1,6 +1,6 @@
 var food = "bacon";
 var is_new = true;
-var food = "green bean";
+food = "green bean";
 var num1 = 42;
 var num2 = 7800;
 var num3 = num1 * num2;

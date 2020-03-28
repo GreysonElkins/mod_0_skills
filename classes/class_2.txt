@@ -4,8 +4,8 @@ Attributes:
 
 headsAtTable (integer)
 order (array of strings)
-needHelp (boolean)
-openCheck (boolean)
+doesNeedHelp (boolean)
+isCheckOpen (boolean)
 tab (float)
 
 Methods:

@@ -4,9 +4,9 @@ attributes:
 
 height: 3.5
 material: ["wood", "screws"]
-wobbly: true
+isWobbly: true
 legCount: 4
-empty: true
+isEmpty: true
 
 methods:
 
@@ -14,6 +14,6 @@ seatCustomer (empty: false)
 
 reupholster (material: ["wood", "screws", "vinyl"])
 
-shimmy (wobbly: false)
+shimmyLeg (wobbly: false)
 
-boosterSeat (height: 4.0)
+addBoosterSeat (height: 4.0)
